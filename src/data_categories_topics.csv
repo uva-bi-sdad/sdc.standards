@@ -1,49 +1,64 @@
-﻿REPO,DATATYPE,DATACATEGORY,DATATOPIC,DATASETS
-Food,Service,Grocery Stores,Location Access,Location Maps; Travel Times; Catchment Areas
-Food,Service,Grocery Stores,Availability,Hours
-Food,Service,Restaurants,Location Access,Location Maps; Travel Times; Catchment Areas
-Food,Service,Food Pantries,Location Access,Location Maps; Travel Times; Catchment Areas
-Food,Service,Food Items,Location Access,Location Maps; Travel Times; Catchment Areas; and Average Costs of Individual Food Items
-Food,Service,Food Items,Cost,Item Costs Lists
-Food,Program,Food Support Programs,Usage,Pct SNAP recipients per geography; Pct WIC recipients per geogaphy
-Food,Population,Food Security,,Food Insecurity; Child Food Insecurity
-Food,Population,Food Environment,,Retail Food Environment; Average Meal Cost
-Broadband,Service,Wired Landline,Location Availability,Location Maps by Available Speed
-Broadband,Service,Wired Landline,Performance,Avg download speeds; Avg jitter/delay
-Broadband,Service,Wired Landline,Cost,Package Pricing
-Broadband,Population,Internet Access,,Households with Internet Access; Households with Broadband Speed Internet Access
-Broadband,Population,Computer Access,,Households with a Computer
-Broadband,Population,Cost vs Income,,Percent of Household Income for Broadband at different speeds
-Health,Service,Physicians OBGYN,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Physicians OBGYN,Availability,Pct accepting new patients
-Health,Service,Physicians OBGYN,Cost,Pct accepting medicare/medicaid
-Health,Service,Physicians OBGYN,Staffing,Share of FTE shortages in HPSAs filled by obligated providers
-Health,Service,Physicians Primary Care,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Physicians Primary Care,Availability,Pct accepting new patients
-Health,Service,Physicians Primary Care,Cost,Pct accepting medicare/medicaid
-Health,Service,Physicians Primary Care,Staffing,Share of FTE shortages in HPSAs filled by obligated providers
-Health,Service,Physicians Pediatricians,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Physicians Pediatricians,Availability,Pct accepting new patients
-Health,Service,Physicians Pediatricians,Cost,Pct accepting medicare/medicaid
-Health,Service,Physicians Pediatricians,Staffing,Share of FTE shortages in HPSAs filled by obligated providers
-Health,Service,Dentists,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Dentists,Availability,Pct accepting new patients
-Health,Service,Dentists,Cost,Pct accepting medicare/medicaid
-Health,Service,Dentists,Staffing,Share of FTE shortages in HPSAs filled by obligated providers
-Health,Service,Hospitals and ERs,Location Access,"Location Maps; Travel Times; Catchment Areas, Capacity Data for Hospitals and ERs"
-Health,Service,Urgent Care Centers,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Mental Health Programs,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Drug and Rehab Programs,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Service,Long Term Care,Location Access,Location Maps; Travel Times; Catchment Areas
-Health,Population,Reproductive Health,,Adequacy of Prenatal Care (Kotelchuck)
-Health,Population,Hospitalization,,Preventable Hospitalizations
-Health,Population,Health Insurance,,Pct without health insurance
-Health,Population,Mental Health,,Pct reporting poor mental health 14 days+ per month
-Health,Population,Physical Health,,Pct reporting poor physical health 14 days+ per month
-Health,Population,Substance Abuse,,Monthly average ED visits for drug overdose
-Health,Population,Births and Deaths,,
-Health,Population,Diseases and Conditions,,
-Education,Service,Early Childhood Programs,Location Access,"Location Maps; Travel Times; Catchment Areas, Capacity Data for day cares"
-Education,Service,Postsecondary Schools,Location Access,"Location Maps; Travel Times; Catchment Areas for 2-year schools and specific programs (engineering, computer science, etc) "
-Education,Population,Educational Performance,,3rd Grade Reading Scores
-Education,Population,Educational Attainment,,Pct with postsecondary education
+﻿RepoName,DataType,DataCategory,DataTopic,ExampleDatasets,ExampleMeasure,ExampleMenu [RepoName:DataCatgeory:DisplayName)
+Food,Service,Grocery Stores,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Food,Service,Grocery Stores,Availability,Hours,,
+Food,Service,Restaurants,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Food,Service,Food Pantries,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Food,Service,Food Items,Location Access,Location Maps; Travel Times; Catchment Areas; and Average Costs of Individual Food Items,jalapenos_ecdf_idx (DisplayName: Produce: Jalapeno Availability),FOOD > FOOD ITEMS > PRODUCE: JALAPENO AVAILABILITY
+Food,Service,Food Items,Cost,Item Costs Lists,,
+Food,Program,Food Support Programs,Usage,Pct SNAP recipients per geography; Pct WIC recipients per geogaphy,,
+Food,Population,Food Security,,Food Insecurity; Child Food Insecurity,,
+Food,Population,Food Environment,,Retail Food Environment; Average Meal Cost,,
+Broadband,Service,Wired Landline,Location Availability,Location Maps by Available Speed,,
+Broadband,Service,Wired Landline,Performance,Avg download speeds; Avg jitter/delay,,
+Broadband,Service,Wired Landline,Cost,Package Pricing; Percent of Household Income for Broadband at different speeds,perc_income_min_price_100 (DisplayName: Pct Income for 100 Mb/Sec),BROADBAND > WIRED LANDLINE > PCT INCOME FOR 100 Mb/SEC
+Broadband,Population,Internet Access,,Households with Internet Access; Households with Broadband Speed Internet Access,,
+Broadband,Population,Computer Access,,Households with a Computer,,
+Health,Service,Physicians OBGYN,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Physicians OBGYN,Availability,Pct accepting new patients,,
+Health,Service,Physicians OBGYN,Cost,Pct accepting medicare/medicaid,,
+Health,Service,Physicians OBGYN,Staffing,Share of FTE shortages in HPSAs filled by obligated providers,,
+Health,Service,Physicians Primary Care,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Physicians Primary Care,Availability,Pct accepting new patients,,
+Health,Service,Physicians Primary Care,Cost,Pct accepting medicare/medicaid,,
+Health,Service,Physicians Primary Care,Staffing,Share of FTE shortages in HPSAs filled by obligated providers,,
+Health,Service,Physicians Pediatricians,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Physicians Pediatricians,Availability,Pct accepting new patients,,
+Health,Service,Physicians Pediatricians,Cost,Pct accepting medicare/medicaid,,
+Health,Service,Physicians Pediatricians,Staffing,Share of FTE shortages in HPSAs filled by obligated providers,,
+Health,Service,Dentists,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Dentists,Availability,Pct accepting new patients,,
+Health,Service,Dentists,Cost,Pct accepting medicare/medicaid,,
+Health,Service,Dentists,Staffing,Share of FTE shortages in HPSAs filled by obligated providers,,
+Health,Service,Hospitals and ERs,Location Access,"Location Maps; Travel Times; Catchment Areas, Capacity Data for Hospitals and ERs",,
+Health,Service,Urgent Care Centers,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Mental Health Programs,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Drug and Rehab Programs,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Service,Long Term Care,Location Access,Location Maps; Travel Times; Catchment Areas,,
+Health,Population,Reproductive Health,,Adequacy of Prenatal Care (Kotelchuck),,
+Health,Population,Hospitalization,,Preventable Hospitalizations,,
+Health,Population,Health Insurance,,Pct without health insurance,,
+Health,Population,Mental Health,,Pct reporting poor mental health 14 days+ per month,,
+Health,Population,Physical Health,,Pct reporting poor physical health 14 days+ per month,,
+Health,Population,Substance Abuse,,Monthly average ED visits for drug overdose,,
+Health,Population,Births and Deaths,,,,
+Health,Population,Diseases and Conditions,,,,
+Education,Service,Early Childhood Programs,Location Access,"Location Maps; Travel Times; Catchment Areas, Capacity Data for day cares",,
+Education,Service,Postsecondary Schools,Location Access,"Location Maps; Travel Times; Catchment Areas for 2-year schools and specific programs (engineering, computer science, etc) ",,
+Education,Population,Educational Performance,,3rd Grade Reading Scores,,
+Education,Population,Educational Attainment,,Pct with postsecondary education,,
+Demographics,Population,VA,RaceEthic,Race and ethnicity by geography,Pecent White,
+Demographics,Population,VA,Age,Age by geography,Percent 65 years and over,
+Demographics,Population,VA,Gender,Gender by geography,Percent Female,
+Demographics,Population,DC,RaceEthic,Race and ethnicity by geography,Pecent White,
+Demographics,Population,DC,Age,Age by geography,Percent 65 years and over,
+Demographics,Population,DC,Gender,Gender by geography,Percent Female,
+Demographics,Population,MD,RaceEthic,Race and ethnicity by geography,Pecent White,
+Demographics,Population,MD,Age,Age by geography,Percent 65 years and over,
+Demographics,Population,MD,Gender,Gender by geography,Percent Female,
+Demographics,Population,NRC,RaceEthic,Race and ethnicity by geography,Pecent White,
+Demographics,Population,NRC,Age,Age by geography,Percent 65 years and over,
+Demographics,Population,NRC,Gender,Gender by geography,Percent Female,
+BusinessClimate,,,,,,
+FinancialWellBeing,,,,,,
+Transportation,,,,,,
+Housing,,,,,,
